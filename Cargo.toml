@@ -1,0 +1,11 @@
+[package]
+name = "libcosmic-demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dependencies.libcosmic]
+git = "https://github.com/pop-os/libcosmic"
+default-feature = false
+features = ["debug", "wayland", "tokio", "xdg-portal"]
